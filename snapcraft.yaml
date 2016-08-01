@@ -39,6 +39,8 @@ parts:
       - qtubuntu-desktop
       - qml-module-qtsysteminfo
       - ubuntu-defaults-zh-cn
+    stage:
+      - -usr/share/pkgconfig/xkeyboard-config.pc       
     snap:
       - -usr/share/doc
       - -usr/include
